@@ -1,0 +1,35 @@
+name: Putri
+main: eu.playerunion.putri.Main
+version: ${project.version}
+authors: ["szviktor"]
+website: "https://playerunion.eu"
+description: ${project.description}
+api-version: 1.18
+
+commands:
+  ping:
+    description: "Internetkapcsolatod ellenőrzése."
+    usage: "/<command>"
+  back:
+    description: "Visszatérés az előző helyszínre."
+    usage: "/<command>"
+  spawn:
+    description: "Teleportálás a kezdőhelyre."
+    usage: "/<command>"
+  home:
+    description: "Teleportálás az otthonaidhoz."
+    usage: "/<command> [otthon]"
+    alisases: ["otthon", "haza"]
+  sethome:
+    description: "Otthon beállítása."
+    usage: "/<command> [otthon]"
+  delhome:
+    description: "Otthon törlése."
+    usage: "/<command> <otthon>"
+  tptoggle:
+    description: "Teleportálás lehetőségének letiltása."
+    usage: "/<command>"
+    alisases: ["hagyjatokafrancba"]
+  tp:
+    description: "Teleportálás egy játékosra."
+    usage: "/<command> <játékos>"
